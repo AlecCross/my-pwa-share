@@ -1,4 +1,5 @@
-'use client';
+import Head from "next/head";
+import "./globals.css";
 
 import { useState } from 'react';
 
@@ -21,10 +22,12 @@ export default function Home() {
     }
   };
 
-  
-
   return (
    <>
+   <Head>
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#000000" />
+      </Head>
     <div
       onDrop={handleDrop}
       onDragOver={(e) => e.preventDefault()}
