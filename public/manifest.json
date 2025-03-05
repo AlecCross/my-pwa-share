@@ -1,6 +1,6 @@
 {
-  "name": "Black Screen",
-  "short_name": "Black",
+  "name": "Drop-Down",
+  "short_name": "DD",
   "start_url": "/",
   "id": "/",
   "display": "standalone",
