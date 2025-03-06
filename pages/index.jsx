@@ -26,8 +26,8 @@ export default function Home() {
    <Head>
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#000000" />
-        <link rel="prefetch" as="image" href="/image-256p.webp" type="image/webp" />
-        <link rel="prefetch" as="image" href="/image-512p.webp" type="image/webp" /> 
+        {/* <link rel="prefetch" as="image" href="/image-256p.webp" type="image/webp" />
+        <link rel="prefetch" as="image" href="/image-512p.webp" type="image/webp" />  */}
       </Head>
     <div
       onDrop={handleDrop}

@@ -1,6 +1,7 @@
 import './globals.css';
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
+import PwaInstallButton from '@/components/PwaInstallButton';
 
 export default function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -15,5 +16,8 @@ export default function MyApp({ Component, pageProps }) {
     }
   }, [router]);
 
-  return <Component {...pageProps} />;
+  return <>
+      <Component {...pageProps} />;
+      <PwaInstallButton />
+  </>
 }

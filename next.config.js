@@ -1,3 +1,4 @@
+//next.config.js
 const runtimeCaching = require("next-pwa/cache");
 const withPWA = require("next-pwa")({
     dest: "public",
